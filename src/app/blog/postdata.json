@@ -1,0 +1,13 @@
+[{
+    "id":1,
+    "title":"Red Post",
+    "post":"This is the red post"
+},{
+    "id":2,
+    "title":"Green Post",
+    "post":"This is the Green post"
+},{
+    "id":2,
+    "title":"White Post",
+    "post":"This is the White post"
+}]
