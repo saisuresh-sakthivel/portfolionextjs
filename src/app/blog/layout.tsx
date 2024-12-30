@@ -8,7 +8,7 @@ interface BlogLayoutProps {
 }
 
 const BlogLayout: React.FC<BlogLayoutProps> = ({ children }) => {
-    const links:urlLink[] = [{name:"about",href:"/blog/about"}]
+    const links:urlLink[] = [{name:"about",href:"/blog/about"},{name:"posts",href:"/blog/posts"}]
     return (
       <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
       <div className="w-full flex-none md:w-64">
