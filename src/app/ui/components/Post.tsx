@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { FunctionComponent } from "react";
 interface PostProps {
     title:string,

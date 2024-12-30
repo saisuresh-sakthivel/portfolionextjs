@@ -1,5 +1,4 @@
 import postdata from '../postdata.json';
-import Link from 'next/link';
 import Post from '@/app/ui/components/Post';
 import { FunctionComponent } from 'react';
  
