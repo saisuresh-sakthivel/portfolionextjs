@@ -11,8 +11,8 @@ interface SampleProps {
 }
  
 const Sample: FunctionComponent<SampleProps> = (Props) => {
-    return (<nav className='p-4 border-2'>
-        {Props.links.map((item)=><Link key={item.href} href={item.href}>{item.name}</Link>)}
+    return (<nav>
+        {Props.links.map((item)=><Link className="p-4 text-blue:90" key={item.href} href={item.href}>{item.name}</Link>)}
     </nav>  );
 }
  

@@ -1,5 +1,4 @@
-import Image from "next/image";
-import SideNav from '@/app/ui/components/SideNav';
+
 
 export default function Home() {
   return (
